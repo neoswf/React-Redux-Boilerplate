@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
 import UserReducer from './reducer-users';
-import ActiveUserReducer from './reducer-active-user';
+import ActiveUserReducer from './reducer-active-users';
 
 /*
  * We combine all reducers into a single object before updated data is dispatched (sent) to store
