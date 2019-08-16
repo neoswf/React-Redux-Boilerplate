@@ -19,7 +19,6 @@ class userDetail extends Component {
 }
 
 function mapStateToProps(state){
-    console.log('active user: ', state.activeUser);
     return {
         user: state.activeUser
     }
